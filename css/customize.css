@@ -2,6 +2,11 @@
     
     background-color: #cccccc;
     
-    margin-top: 20px;
+    clear: both;
+}
+
+.pagination{
+    
+    float:right;
     
 }
