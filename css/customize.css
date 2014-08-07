@@ -1,7 +1,7 @@
 .bottom{
     
     background-color: #cccccc;
-    
+    margin-top: 10px;
     clear: both;
 }
 
@@ -9,4 +9,32 @@
     
     float:right;
     
+}
+
+
+//adaptive background-color
+
+
+@media screen and (min-width:1px) and (max-width: 400px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media screen and (min-width: 401px) and (max-width: 700px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+  body {
+    background-color: red;
+  }
+}
+
+@media screen and (min-width: 1001px) {
+ body {
+    background-color: purple;
+  }
 }
