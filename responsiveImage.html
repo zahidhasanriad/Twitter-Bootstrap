@@ -1,0 +1,73 @@
+<html>
+    
+    <head>
+        <title>Responsive Basics</title>
+        
+        <style>
+            
+            @media screen and (max-width: 400px) {
+                 body {
+                    background-color: blue;
+                }
+  
+            }
+
+            @media screen and (min-width: 401px) and (max-width: 700px) {
+                body {
+                 background-color: green;
+                 }
+  
+            }
+
+            @media screen and (min-width: 701px) and (max-width: 1000px) {
+                body {
+                 background-color: red;
+                 }
+
+            }
+
+            @media screen and (min-width: 1001px) {
+                body {
+                  background-color: purple;
+                 } 
+            }
+            
+            
+            div{
+                
+                float: left;
+                width: 49%;
+                margin-right: 1px;
+                
+            }
+            
+            
+            div img{
+                
+                max-width: 100%;
+                
+                
+            }
+            
+            
+        </style>
+        
+    </head>
+    
+    <body>
+        
+        <div>
+        <img src="img/image1.jpg">
+        This is game on.
+        </div>
+        
+        <div>
+        <img src="img/image2.jpg">
+        This is game on.
+        </div>
+        
+        
+        
+    </body>
+    
+</html>
